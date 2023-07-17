@@ -3,8 +3,6 @@ import java.util.ArrayList;
 public class ResourceCentre {
 	
 
-<<<<<<< HEAD
-
 	private static final int ITEM_TYPE_CHROMEBOOK = 2;
 	private static final int ITEM_TYPE_CAMCODER = 1;
 	private static final int OPTION_RETURN = 4;
@@ -13,10 +11,8 @@ public class ResourceCentre {
 	private static final int OPTION_VIEW = 1;
 	private static final int OPTION_QUIT = 5;
 
-=======
-    //extract constants 
-    private static final int Option_Quit=5;
->>>>>>> branch 'master' of https://github.com/22013553-TanMeiJun/ResourceCentre_Refactor.git
+
+
 	public static void main(String[] args) {
 
 		ArrayList<Camcorder> camcorderList = new ArrayList<Camcorder>();
@@ -29,7 +25,7 @@ public class ResourceCentre {
 
 		int option = 0;
 		//extract constants 
-		while (option != Option_Quit) {
+		
 
 		while (option != OPTION_QUIT) {
 
@@ -106,7 +102,7 @@ public class ResourceCentre {
 		}
 		
 
-	}
+	
 
 	private static void itemTypeMenu() {
 		ResourceCentre.setHeader("ITEM TYPES");
